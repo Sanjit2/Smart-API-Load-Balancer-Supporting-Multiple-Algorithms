@@ -25,7 +25,7 @@ def perform_search(query):
         return search_cache[query]
     
     try:
-        search_engine_id = "d721e37e8d4e2473b"
+        search_engine_id = "YOUR_SEARCH_ENGINE_ID"
         url = f"https://www.googleapis.com/customsearch/v1"
         params = {
             "key": SEARCH_API_KEY,
